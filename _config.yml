@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://jugelen.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: KeyboardWizard
+subtitle: HAPPY HACKING
+author: juteman
 simple_search: https://www.google.com/search
-description:
+description: Programming is magic
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: juteman_open@YAHOO.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -33,7 +33,8 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: kramdown
+mathjax: true
 rdiscount:
   extensions:
     - autolink
